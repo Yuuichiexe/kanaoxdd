@@ -1,5 +1,3 @@
-
-
 import subprocess
 import importlib
 import time
@@ -57,12 +55,10 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 クルー "ᴡᴇʟᴄᴏᴍᴇ" {} - ꜱᴀɴ!
 ʏᴏꜱʜᴀ!! ᴍʏsᴇʟғ ʏᴀᴇ - ᴍɪᴋᴏ ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ғᴜʟʟ ᴄᴀᴘᴀᴄɪᴛʏ.
-
 ❖ ᴛᴇꜱᴛ ᴠᴇʀꜱɪᴏɴ : 3.10.6
 ❖ ꜱᴜʙᴊᴇᴄᴛ ᴜᴘᴛɪᴍᴇ : `{}`
 ❖ ᴜsᴇʀs sᴇʀᴠɪɴɢ : `{}`
 ❖ ᴄʜᴀᴛs sᴇʀᴠɪɴɢ : `{}`
-
 ➺ ʜɪᴛ ᴛʜᴇ ᴛʜᴇ /help ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ. ××
 """
 
@@ -244,7 +240,8 @@ def start(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
             )
-       else:
+            else:
+        
         first_name = update.effective_user.first_name
         update.effective_message.reply_photo(
                 photo=(HELP_IMG), caption= "<b>ɪ ᴀᴍ ᴜᴘ !!! Uptime :</b>: <code>{}</code>".format(
