@@ -38,7 +38,7 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 ENV = bool(os.environ.get('ENV', True))
 
 if ENV:
-    TOKEN = os.environ.get('TOKEN', "5413491390:AAFA6ojnW070AJ4GDqRC1IC8k3_mcjQa9z4")
+    TOKEN = os.environ.get('TOKEN', "")
 
     try:
         OWNER_ID = int(os.environ.get('OWNER_ID', 5531584953))
@@ -83,8 +83,8 @@ if ENV:
     CERT_PATH = os.environ.get("CERT_PATH")
     API_ID = os.environ.get('API_ID', 4665778)
     API_HASH = os.environ.get('API_HASH', "10e3ed833b0d09699973420d45359409")
-    DB_URI = os.environ.get('db_uri','postgres://rzgeatqi:CLn2r-lMpIzyKF9gRv5oPPHwLZRL1U-e@suleiman.db.elephantsql.com/rzgeatqi')
-    SQLALCHEMY_DATABASE_URI = os.environ.get('postgres://rzgeatqi:CLn2r-lMpIzyKF9gRv5oPPHwLZRL1U-e@suleiman.db.elephantsql.com/rzgeatqi')
+    DB_URI = os.environ.get('db_uri','postgres://griyemya:9Rok1yXyWcXMywkOTJx0w6Qei9qOKbvL@ziggy.db.elephantsql.com/griyemya')
+    SQLALCHEMY_DATABASE_URI = os.environ.get('')
     DONATION_LINK = os.environ.get('DONATION_LINK')
     LOAD = os.environ.get("LOAD", "").split()
     NO_LOAD = os.environ.get("NO_LOAD", "rss").split()
@@ -98,7 +98,7 @@ if ENV:
     TIME_API_KEY = os.environ.get('TIME_API_KEY', None)
     AI_API_KEY = os.environ.get('AI_API_KEY', None)
     WALL_API = os.environ.get('WALL_API', None)
-    SUPPORT_CHAT = os.environ.get('SUPPORT_CHAT', "@NexusXSupport")
+    SUPPORT_CHAT = os.environ.get('SUPPORT_CHAT', "@Yae_Support")
     SPAMWATCH_SUPPORT_CHAT = os.environ.get('SPAMWATCH_SUPPORT_CHAT', None)
     SPAMWATCH_API = os.environ.get('SPAMWATCH_API', None)
     REPOSITORY = os.environ.get("REPOSITORY", "")
@@ -114,8 +114,8 @@ if ENV:
     BOT_NAME = os.environ.get("BOT_NAME", 'YaeRobot') # Name Of your Bot.4
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "YaeRobot") # Bot Username
     OPENWEATHERMAP_ID = os.environ.get("OPENWEATHERMAP_ID", "") # From:- https://openweathermap.org/api
-    LOG_GROUP_ID = os.environ.get('LOG_GROUP_ID', '-1001733372611')
-    BOT_ID = 5413491390
+    LOG_GROUP_ID = os.environ.get('LOG_GROUP_ID', '-1001703672408')
+    BOT_ID = 5434671964
     STRICT_GMUTE = bool(os.environ.get('STRICT_GMUTE', True))
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", 'mongodb+srv://ok:lol@cluster1.udhzs7r.mongodb.net/?retryWrites=true&w=majority')
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None) # From:- https://www.remove.bg/ 
