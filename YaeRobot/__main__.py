@@ -247,7 +247,7 @@ def start(update: Update, context: CallbackContext):
                 photo=(HELP_IMG), caption= "<b>ɪ ᴀᴍ ᴜᴘ !!! Uptime :</b>: <code>{}</code>".format(
                 uptime
  
-            ),
+            )),
             
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
