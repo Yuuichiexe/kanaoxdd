@@ -71,13 +71,13 @@ buttons = [
     [
         InlineKeyboardButton(
             text="✙ ᴀᴅᴅ ʏᴀᴇ ღ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✙",
-            url="t.me/YaeProBot?startgroup=true",
+            url="t.me/kanao_probot?startgroup=true",
         ),
     ],
     [
         InlineKeyboardButton(
             text="ᴏғғ ᴄʜᴀᴛ",
-            url="t.me/Anime_Chat_Folks",
+            url="t.me/Xd_Botts_Suppor",
         ),
         InlineKeyboardButton(
             text="ɴᴇᴛᴡᴏʀᴋ",
@@ -240,7 +240,7 @@ def start(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
             )
-            else:
+        else:
         
         first_name = update.effective_user.first_name
         update.effective_message.reply_photo(
