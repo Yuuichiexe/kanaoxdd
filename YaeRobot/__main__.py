@@ -240,7 +240,7 @@ def start(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
             )
-        else:
+          else:
         
         first_name = update.effective_user.first_name
         update.effective_message.reply_photo(
